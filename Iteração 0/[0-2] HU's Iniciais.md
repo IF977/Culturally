@@ -24,7 +24,7 @@ Para que eu encontre as melhores opções de acordo com meu tempo livre
 ```
 4ª HU
 Como um visitante
-Eu quero filtrr roteiros culturais de um tipo específico
+Eu quero filtrar roteiros culturais de um tipo específico
 Para que eu encontre opções de acordo com minhas necessidades atuais
 ```
 ```
