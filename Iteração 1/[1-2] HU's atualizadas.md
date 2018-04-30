@@ -47,6 +47,7 @@ Para que eu possa chegar mais rápido ao roteiro cultural
 ***
 
 #### USUÁRIO
+***
 
 ```
 1ª HU
@@ -92,6 +93,8 @@ Para que o acesso fique mais simples
 ***
 
 #### ADMINISTRADOR
+
+***
 
 ```
 1ª HU
