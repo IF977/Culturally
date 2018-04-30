@@ -44,9 +44,9 @@ Para que eu possa salvar os roteiros culturais que eu mais gosto
 Como um Visitante
 Eu quero saber a melhor rota para o meu destino
 Para que eu possa chegar mais rápido ao roteiro cultural
-***
 
 #### USUÁRIO
+
 ```
 1ª HU
 Como um usuário
@@ -88,11 +88,9 @@ Para que eu possa contatar a equipe e dar feedbacks ou sugestões
 Como um Usuário 
 Eu quero Logar com minha conta do Facebook
 Para que o acesso fique mais simples
-***
 
 #### ADMINISTRADOR
 
-***
 
 ```
 1ª HU
