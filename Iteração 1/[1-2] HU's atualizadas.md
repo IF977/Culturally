@@ -47,8 +47,6 @@ Para que eu possa chegar mais rápido ao roteiro cultural
 ***
 
 #### USUÁRIO
-***
-
 ```
 1ª HU
 Como um usuário
