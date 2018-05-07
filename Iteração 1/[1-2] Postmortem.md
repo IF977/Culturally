@@ -48,7 +48,7 @@ Ainda que as atividades tenham sido realizadas, houveram diferenças entre o que
 | Criação de novos testes em Cucumber | `@eliezerpedro` |
 | Implementar feature de login com redes sociais | `@acl5` |
 | Melhorar identidade visual da página principal | `@gabrieldluca` |
-| Implementação do modelo relacional | `@acl5`, `@gabrieldluca` |
+| Povoamento do BD, criação de consultas iniciais | `@acl5`, `@gabrieldluca` |
 | Criar Back-end CRUD do Usuário | `@eliezerpedro`, `@dlsr` |
 
 
