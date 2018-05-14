@@ -1,92 +1,338 @@
-<div class="main no-margin">
-  <div class="container">
-  	<nav id="menu">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <ul>
+        <title>Culturally</title>
+    <!--
+
+    Template 2095 Level
+
+    http://www.tooplate.com/view/2095-level
+
+    -->
+
+        <!-- Google web font "Open Sans" -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">  
         
-        
-        <div class="float-left">
-	        <li><a href="#">-</a></li>
+        <!-- Font Awesome -->
+        <%= stylesheet_link_tag "font-awesome.min.css" %>
+
+        <!-- Bootstrap style -->
+        <%= stylesheet_link_tag "bootstrap.min" %>
+
+        <!-- Templatemo style -->
+        <%= stylesheet_link_tag "tooplate-style" %>
+        <%= stylesheet_link_tag "datepicker" %>
+        <%= stylesheet_link_tag "slick/slick" %>
+        <%= stylesheet_link_tag "slick/slick-theme" %>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+            <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+              <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+              <![endif]-->
+    </head>
+    <body>
+        <div class="tm-main-content" id="top">
+            <div class="tm-top-bar-bg"></div>
+            <div class="tm-top-bar" id="tm-top-bar">
+                <!-- Top Navbar -->
+                <div class="container">
+                    <div class="row">
+                        
+                        <nav class="navbar navbar-expand-lg narbar-light">
+                            <a class="navbar-brand mr-auto" href="#">
+                                <%= image_tag("logo.png", :alt => "App logo") %>
+                                Culturally
+                            </a>
+                            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="./login.html">Entrar</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-3">Sobre</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#tm-section-6">Contato</a>
+                                  </li>
+                                </ul>
+                            </div>                            
+                        </nav>            
+                    </div>
+                </div>
+            </div>
+            <div class="tm-section tm-bg-img" id="tm-section-1">
+                <div class="tm-bg-white ie-container-width-fix-2">
+                    <div class="container ie-h-align-center-fix">
+                        <div class="row">
+                            <div class="col-xs-12 ml-auto mr-auto ie-container-width-fix">
+                                <form action="index.html" method="get" class="tm-search-form tm-section-pad-2">
+                                    <div class="form-row tm-search-form-row">
+                                        <div class="form-group tm-form-element tm-form-element-2">                                            
+                                            <select name="adult" class="form-control tm-select" id="adult">
+                                                <option value="">Tipo de roteiro</option>
+                                                <option value="1">Centro de compras</option>
+                                                <option value="2">Feira livre</option>
+                                                <option value="3">Mercado público</option>
+                                                <option value="4">Museu</option>
+                                                <option value="5">Ponte</option>
+                                                <option value="6">Teatro</option>
+                                            </select>
+                                            <i class="fa fa-2x fa-user tm-form-element-icon"></i>
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-50">
+                                            <i class="fa fa-calendar fa-2x tm-form-element-icon"></i>
+                                            <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Data">
+                                        </div>
+                                        <div class="form-group tm-form-element tm-form-element-2">
+                                            <button type="submit" class="btn btn-primary tm-btn-search">Buscar</button>
+                                        </div>
+                                    </div>
+                                    <div class="form-row tm-search-form-row">
+                                        <!-- FILTROS -->
+                                    </div>
+                                </form>
+                            </div>                        
+                        </div>      
+                    </div>
+                </div>                  
+            </div>
+            
+            <div class="tm-section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h2 class="tm-section-title">Em busca de novos roteiros culturais?</h2>
+                            <p class="tm-color-white tm-section-subtitle">Favorite, compartilhe e passe a conhecer locais próximos à sua região.</p>
+                            <a href="#" class="tm-color-white tm-btn-white-bordered">Cadastre-se</a>
+                        </div>                
+                    </div>
+                </div>        
+            </div>
+            
+            <div class="tm-section tm-position-relative" id="tm-section-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" class="tm-section-down-arrow">
+                    <polygon fill="#ee5057" points="0,0  100,0  50,60"></polygon>                   
+                </svg> 
+                <div class="container tm-pt-5 tm-pb-4">
+                    <div class="row text-center">
+                      <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
+                            <i class="fa tm-fa-6x fa-fire tm-color-primary tm-margin-b-20"></i>
+                            <h3 class="tm-color-primary tm-article-title-1">Descubra tendências</h3>
+                            <p>Cupcake ipsum dolor sit. Amet halvah cookie powder. Candy canes macaroon croissant toffee cake.</p>
+                        </article>
+                        <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
+                            <i class="fa tm-fa-6x fa-map tm-color-primary tm-margin-b-20"></i>
+                            <h3 class="tm-color-primary tm-article-title-1">Encontre lugares</h3>
+                            <p>Caramels jelly dragée fruitcake croissant pudding tiramisu. Halvah pastry cupcake macaroon muffin. Lemon drops candy pie.</p>
+                        </article>
+                        <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                           
+                            <i class="fa tm-fa-6x fa-bookmark tm-color-primary tm-margin-b-20"></i>
+                            <h3 class="tm-color-primary tm-article-title-1">Construa momentos</h3>
+                            <p>Cookie dragée bear claw sweet toffee marzipan gingerbread chocolate bar chocolate bar. Wafer lemon drops carrot cake danish.</p>
+                        </article>
+                    </div>        
+                </div>
+            </div>
+                        
+            <div class="tm-section tm-section-pad tm-bg-img tm-position-relative" id="tm-section-6">
+                <div class="container ie-h-align-center-fix">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-7">
+                            <div id="google-map"></div>        
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-5 mt-3 mt-md-0">
+                            <div class="tm-bg-white tm-p-4">
+                                <form action="index.html" method="post" class="contact-form">
+                                    <div class="form-group">
+                                        <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Nome"  required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Assunto"  required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Mensagem" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary tm-btn-primary">Enviar mensagem</button>
+                                </form>
+                            </div>                            
+                        </div>
+                    </div>        
+                </div>
+            </div>
+            
+            <footer class="tm-bg-dark-blue">
+                <div class="container">
+                    <div class="row">
+                        <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
+                        Copyright &copy; <span class="tm-current-year">2018</span> Culturally
+                        
+                        - Design: <a href="https://www.facebook.com/tooplate" class="tm-color-primary tm-font-normal" target="_parent">Tooplate</a></p>        
+                    </div>
+                </div>                
+            </footer>
         </div>
+        
+        <!-- load JS files -->
+        <%= javascript_include_tag "jquery-1.11.3.min.js", "data-turbolinks-track" => true  %>
+        <%= javascript_include_tag "popper.min.js", "data-turbolinks-track" => true  %>
+        <%= javascript_include_tag "bootstrap.min.js", "data-turbolinks-track" => true  %>
+        <%= javascript_include_tag "datepicker.min.js", "data-turbolinks-track" => true  %>
+        <%= javascript_include_tag "jquery.singlePageNav.min.js", "data-turbolinks-track" => true  %>
+        <%= javascript_include_tag "slick/slick.min.js", "data-turbolinks-track" => true  %>
 
-        <li><a href="#">Contato</a></li>
+        <script>
 
-        <li><a href="#">Quem somos</a></li>
+            /* Google map
+            ------------------------------------------------*/
+            var map = '';
+            var center;
 
-        <li><a href="#">Sobre</a></li>
+            function initialize() {
+                var mapOptions = {
+                    zoom: 16,
+                    center: new google.maps.LatLng(-8.0556, -34.9513),
+                    scrollwheel: false
+                };
 
-        <li><a href="#">Cadastro</a></li>
+                map = new google.maps.Map(document.getElementById('google-map'),  mapOptions);
 
-        <li><a href="#">Entrar</a></li>
+                google.maps.event.addDomListener(map, 'idle', function() {
+                  calculateCenter();
+              });
 
-	    <p align="center" style="color:white;">Bem vindo(a) Visitante</p>
-      
-    </ul>
+                google.maps.event.addDomListener(window, 'resize', function() {
+                  map.setCenter(center);
+              });
+            }
 
-<ul>
+            function calculateCenter() {
+                center = map.getCenter();
+            }
 
-  <li class="dropdown float-left">
-    <a class="dropbtn">-</a>
-    <div class="dropdown-content">
-      <a href="#">Museus</a>
-      <a href="#">Teatros</a>
-      <a href="#">Mercados Públicos</a>
-      <a href="#">Feiras</a>
-      <a href="#">Pontes</a>
-      <a href="#">Centros de Compra</a>
-    </div>
-  </li>
-  <h1 align="center" style="color:white;">Recife Cultural</h1>
-</ul>
+            function loadGoogleMap(){
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDVWt4rJfibfsEDvcuaChUaZRS5NXey1Cs&v=3.exp&sensor=false&' + 'callback=initialize';
+                document.body.appendChild(script);
+            } 
 
+            function setCarousel() {
+                
+                if ($('.tm-article-carousel').hasClass('slick-initialized')) {
+                    $('.tm-article-carousel').slick('destroy');
+                } 
 
-</nav>
+                if($(window).width() < 438){
+                    // Slick carousel
+                    $('.tm-article-carousel').slick({
+                        infinite: false,
+                        dots: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    });
+                }
+                else {
+                 $('.tm-article-carousel').slick({
+                        infinite: false,
+                        dots: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    });   
+                }
+            }
 
-<div>
+            function setPageNav(){
+                if($(window).width() > 991) {
+                    $('#tm-top-bar').singlePageNav({
+                        currentClass:'active',
+                        offset: 79
+                    });   
+                }
+                else {
+                    $('#tm-top-bar').singlePageNav({
+                        currentClass:'active',
+                        offset: 65
+                    });   
+                }
+            }
 
-<h1 align="center">IMAGEM</h1>
+            function togglePlayPause() {
+                vid = $('.tmVideo').get(0);
 
-<h1 align="center">Encontre seu próximo destino cultural no recife</h1>
+                if(vid.paused) {
+                    vid.play();
+                    $('.tm-btn-play').hide();
+                    $('.tm-btn-pause').show();
+                }
+                else {
+                    vid.pause();
+                    $('.tm-btn-play').show();
+                    $('.tm-btn-pause').hide();   
+                }  
+            }
+       
+            $(document).ready(function(){
 
-</div>
+                $(window).on("scroll", function() {
+                    if($(window).scrollTop() > 100) {
+                        $(".tm-top-bar").addClass("active");
+                    } else {
+                        //remove the background property so it comes transparent again (defined in your css)
+                       $(".tm-top-bar").removeClass("active");
+                    }
+                });      
 
-<div>
+                // Google Map
+                loadGoogleMap();  
 
-</div>
+                // Date Picker
+                const pickerCheckIn = datepicker('#inputCheckIn');
+                const pickerCheckOut = datepicker('#inputCheckOut');
+                
+                // Slick carousel
+                setCarousel();
+                setPageNav();
 
-<div align="center" style="
-    display: block;
-    width: 440px;
-    height: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #f3f3f3;">
+                $(window).resize(function() {
+                  setCarousel();
+                  setPageNav();
+                });
 
-    <div style="height: 180px; width: 380px; ">
+                // Close navbar after clicked
+                $('.nav-link').click(function(){
+                    $('#mainNav').removeClass('show');
+                });
 
-	    <h2 style="padding-top: 20px;">Pesquisar roteiros culturais</h2>
+                // Control video
+                $('.tm-btn-play').click(function() {
+                    togglePlayPause();                                      
+                });
 
-	    <div style="margin-top: 10px;">
-		     <select class="float-left">
-			  <option value="roteiro1">tipo de roteiro 1</option>
-			  <option value="roteiro2">tipo de roteiro 2</option>
-			  <option value="roteiro3">tipo de roteiro 3</option>
-			  <option value="roteiro4">tipo de roteiro 4</option>
-			</select> 
-			<button class="float-right"> calendário </button>
-			<button class="float-right"> data </button>
-		</div>
+                $('.tm-btn-pause').click(function() {
+                    togglePlayPause();                                      
+                });
 
-		<div style="background-color: blue; margin-top: 80px; display: block;">
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());                           
+            });
 
-		<a class="float-left" href="#">mais filtros</a>
+        </script>             
 
-		<button class="float-right"> busca </button>
+</body>
+</html>
 
-		</div>
-	</div>
-
-</div>
-
-  </div>
-</div>
