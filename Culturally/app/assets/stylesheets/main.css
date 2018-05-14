@@ -437,6 +437,10 @@ iframe {
   opacity: 1;
 }
 
+.container-login100 {
+  background-image: url('bg-01.jpg')
+}
+
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
