@@ -20,7 +20,8 @@ CREATE TABLE Rede_Social (
 );
 
 CREATE TABLE Roteiro_Cultural (
-	id_roteiro number, 
+	id_roteiro number,
+	nome varchar(255),
 	logradouro varchar(255),  
 	bairro varchar(255), 
 	latitude number,
@@ -121,15 +122,15 @@ CREATE TABLE Teatro_Telefones (
 CREATE TABLE Segue (
 	email_a varchar(255),
 	email_b varchar(255),
- 	CONSTRAINT Segue_fk1 FOREIGN KEY (email_a) REFERENCES Usuario(email),
-	CONSTRAINT Segue_fk2 FOREIGN KEY (email_b) REFERENCES Usuario(email),
+	CONSTRAINT Segue_fk1 FOREIGN KEY (email_a) REFERENCES Conta(email),
+	CONSTRAINT Segue_fk2 FOREIGN KEY (email_b) REFERENCES Conta(email),
 	CONSTRAINT Segue_pk PRIMARY KEY (email_a, email_b)
 );
 
 CREATE TABLE Favorita (
 	email varchar(255),
 	id_roteiro_fav number,
-	CONSTRAINT Favorita_fk1 FOREIGN KEY (email) REFERENCES Usuario(email),
+	CONSTRAINT Favorita_fk1 FOREIGN KEY (email) REFERENCES Conta(email),
 	CONSTRAINT Favorita_fk2 FOREIGN KEY (id_roteiro_fav) REFERENCES Roteiro_Cultural(id_roteiro),
 	CONSTRAINT Favorita_pk PRIMARY KEY (email, id_roteiro_fav)
 );
@@ -156,11 +157,11 @@ CREATE TABLE Modificacao (
 # Relacionamentos ternários
 
 CREATE TABLE Compartilha (
-	email_usuario varchar(255),
+	email_conta varchar(255),
 	id_roteiro number,
 	id_rede_social number,
-	CONSTRAINT Compartilha_fk1 FOREIGN KEY (email_usuario) REFERENCES Usuario(email),
+	CONSTRAINT Compartilha_fk1 FOREIGN KEY (email_conta) REFERENCES Conta(email),
 	CONSTRAINT Compartilha_fk2 FOREIGN KEY (id_roteiro) REFERENCES Roteiro_Cultural(id_roteiro),
 	CONSTRAINT Compartilha_fk3 FOREIGN KEY (id_rede_social) REFERENCES Rede_Social(social_id),
-	CONSTRAINT Compartilha_pk PRIMARY KEY (email_usuario, id_roteiro, id_rede_social)
+	CONSTRAINT Compartilha_pk PRIMARY KEY (email_conta, id_roteiro, id_rede_social)
 );
