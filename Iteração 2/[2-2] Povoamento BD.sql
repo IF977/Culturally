@@ -14,8 +14,81 @@ Insert into Rede_Social values (1, 'Twitter');
 Insert into Rede_Social values (2, 'Facebook');
 Insert into Rede_Social values (3, 'Google+');
 
+Insert into Roteiro_Cultural values (1, 'RioMar Shopping', 'Av. República do Líbano - 251', 'Pina', '-8.086147', '-34.893588')
+Insert into Roteiro_Cultural values (2, 'Shopping Recife', 'R. Padre Carapuceiro - 777 ', 'Boa Viagem', '-8.119903', '-34.90451')
+Insert into Roteiro_Cultural values (3, 'Paço Alfândega', 'Rua da Alfândega - 35', 'Recife', '-8.064945', '-34.874136')
+Insert into Roteiro_Cultural values (4, 'Shopping Boa Vista', 'R. do Giriquiti - 48', 'Boa Vista', '-8.059341', '-34.886984')
+Insert into Roteiro_Cultural values (5, 'Shopping Tacaruna', 'Av. Agamenon Magalhães - 153', 'Santo Amaro', '-8.037601', '-34.87224')
+Insert into Roteiro_Cultural values (6, 'Plaza Casa Forte', 'R. Dr. João Santos Filho - 255', 'Casa Forte', '-8.036799', '-34.912778')
+Insert into Roteiro_Cultural values (7, 'Executive Trade Center', 'Av. Cons. Rosa e Silva - 1460', 'Jaqueira ', '-8.0389277', '-34.9019022')
+Insert into Roteiro_Cultural values (8, 'Feira Dom Vital', 'Praça Dom Vital', 'São José', '-8.06785', '-34.878208')
+Insert into Roteiro_Cultural values (9, 'Feira Água Fria', 'Rua Uzeda Luna', 'Água Fria', '-8.018861', '-34.895011')
+Insert into Roteiro_Cultural values (10, 'Feira de Beberibe', 'Praça da Convenção', 'Beberibe', '-8.037481', '-34.891785')
+Insert into Roteiro_Cultural values (11, 'Feira Arruda', 'Rua Ramis Galvão', 'Arruda', '-8.025208', '-34.893689')
+Insert into Roteiro_Cultural values (12, 'Feira Encruzilhada', 'Largo da Encruzilhada', 'Encruzilhada', '-8.036735', '-34.891921')
+Insert into Roteiro_Cultural values (13, 'Feira Alto do Deodato', 'Rua Alto do Deodato', 'Água Fria', '-8.012372', '-34.89941')
+Insert into Roteiro_Cultural values (14, 'Feira Casa Amarela', 'Largo de Casa Amarela', 'Casa Amarela', '-8.026202', '-34.917926')
+Insert into Roteiro_Cultural values (15, 'Feira Nova Descoberta', 'Av. Nova Descoberta', 'Nova Descoberta', '-8.000821', '-34.923073')
+Insert into Roteiro_Cultural values (16, 'Feira Bomba Grande', 'Av. Inácio Monteiro', 'Cordeiro', '-8.047332', '-34.931098')
+Insert into Roteiro_Cultural values (17, 'Feira do Cordeiro', 'Avenida General San Martin - s/n', 'Cordeiro', '-8.052208', '-34.921784')
+Insert into Roteiro_Cultural values (18, 'Feira da Várzea', 'Rua Azevedo Coutinho', 'Várzea', '-8.049637', '-34.960032')
+Insert into Roteiro_Cultural values (19, 'Feira do Engenho do Meio', 'R. Gov. Lupo Garro', 'Engenho do Meio', '-8.056383', '-34.943758')
+Insert into Roteiro_Cultural values (20, 'Feira de Areias', 'Rua Barros Sobrinho', 'Areias', '-8.088718', '-34.934379')
+Insert into Roteiro_Cultural values (21, 'Feira da Mustardinha', 'Av. Manoel Gonçalves da Luz', 'Mustardinha', '-8.071074', '-34.918055')
+Insert into Roteiro_Cultural values (22, 'Feira de Afogados', 'Estrada dos Remédios - s/n', 'Afogados', '-8.077787', '-34.90709')
+Insert into Roteiro_Cultural values (23, 'Feira do Jordão', 'Rua Alberto Lundgren', 'Jordão', '-8.137061', '-34.937023')
+Insert into Roteiro_Cultural values (24, 'Feira do Ibura UR – 01', 'Av. Pernambuco', 'Ibura', '-8.118719', '-34.946475')
+Insert into Roteiro_Cultural values (25, 'Mercado de São José', 'Praça Dom Vital', 'São Jose', '-8.06806', '-34.87775')
+Insert into Roteiro_Cultural values (26, 'Mercado da Boa Vista', 'R. da Santa Cruz', 'Boa Vista', '-8.063192', '-34.888654')
+Insert into Roteiro_Cultural values (27, 'Mercado da Madalena', 'R. Real da Torre', 'Madalena', '-8.052439', '-34.908554')
+Insert into Roteiro_Cultural values (28, 'Mercado da Encruzilhada', 'R. Carlos Borromeu', 'Encruzilhada', '-8.036873', '-34.892434')
+Insert into Roteiro_Cultural values (29, 'Mercado de Casa Amarela', 'Estr. do Arraial', 'Casa Amarela', '-8.026599', '-34.917882')
+Insert into Roteiro_Cultural values (30, 'Mercado do Cordeiro ', 'Rua Honório Correia', 'Cordeiro', '-8.051698', '-34.921372')
+Insert into Roteiro_Cultural values (31, 'Museu do Homem do Nordeste', 'Av. Dezessete de Agosto - 2187', 'Casa Forte', '-8.030196', '-34.925281')
+Insert into Roteiro_Cultural values (32, 'Museu Murilo La Greca', 'R. Leonardo Bezerra Cavalcante - 366', 'Parnamirim', '-8.037325', '-34.909832')
+Insert into Roteiro_Cultural values (33, 'Museu da Cidade do Recife', 'Praça das cinco pontas', 'São José', '-8.071313', '-34.880809')
+Insert into Roteiro_Cultural values (34, 'Museu Militar', 'Av. Militar - s/n', 'Recife', '-8.052803', '-34.871412')
+Insert into Roteiro_Cultural values (35, 'Museu de Arte Moderna Aloísio Magalhães (Mamam)', 'Rua da Aurora - 265', 'Boa Vista', '-8.061285', '-34.881394')
+Insert into Roteiro_Cultural values (36, 'Museu Franciscano de Arte Sacra', 'R. Imperador Dom Pedro II - 57', 'Santo Antônio', '-8.062427', '-34.877231')
+Insert into Roteiro_Cultural values (37, 'Casa-Museu Magdalena e Gilberto Freyre', 'Rua Jorge Tasso Neto', 'Apipucos', '-8.020598', '-34.938482')
+Insert into Roteiro_Cultural values (38, 'Oficina Brennand', 'Propriedade Santos Cosme e Damião - s/n', 'Várzea', '-8.052569', '-34.974795')
+Insert into Roteiro_Cultural values (39, 'Instituto Ricardo Brennand (IRB)', 'Alameda Antônio Brennand - s/n', 'Várzea', '-8.065768', '-34.964301')
+Insert into Roteiro_Cultural values (40, 'Museu do Estado de Pernambuco', 'Av. Rui Barbosa - 960', 'Graças', '-8.0447749', '-34.901995')
+Insert into Roteiro_Cultural values (41, 'Museu da Abolição', 'R. Benfica - 1150', 'Madalena', '-8.0571555', '-34.9090307')
+Insert into Roteiro_Cultural values (42, 'Instituto Arqueológico Histórico e Geográfico de Pernambuco', 'Rua do Hospício - 130', 'Boa Vista', '-8.0617337', '-34.8843858')
+Insert into Roteiro_Cultural values (43, 'Museu de Arte Popular', 'Pátio de São Pedro - 49', 'São José', '-8.0673105', '-34.8790074')
+Insert into Roteiro_Cultural values (44, 'Cais do Sertão', 'Av. Alfredo Lisboa - s/n', 'Recife', '-8.0631633', '-34.8711337')
+Insert into Roteiro_Cultural values (45, 'Casa do Carnaval ', 'Pátio de São Pedro - 38', 'São José', '-8.0667877', '-34.8790547')
+Insert into Roteiro_Cultural values (46, 'Observatório Cultural Torre Malakoff', 'Praça do Arsenal - s/n', 'Recife', '-8.0631633', '-34.8711337')
+Insert into Roteiro_Cultural values (47, 'Sinagoga Kahal Zur Israel', 'Rua do Bom Jesus - 197', 'Recife', '-8.0618594', '-34.8713172')
+Insert into Roteiro_Cultural values (48, 'Paço do Frevo', 'Praça do Arsenal da Marinha - s/n', 'Recife', '-8.0613183', '-34.8716376')
+Insert into Roteiro_Cultural values (49, 'Memorial Chico Science', 'Pátio de São Pedro - 21', 'São José', '-8.0671216', '-34.8788421')
+Insert into Roteiro_Cultural values (50, 'Memorial Luiz Gonzaga', 'Pátio de São Pedro - 35', 'São José', '-8.0672249', '-34.8789283')
+Insert into Roteiro_Cultural values (51, 'Museu do Trem', 'R. Floriano Peixoto - s/n', 'São José', '-8.0680447', '-34.8834433')
+Insert into Roteiro_Cultural values (52, 'Museu de Artes Afro-Brasil Rolando Toro', 'Rua Mariz e Barros - 328', 'Recife', '-8.0628495', '-34.873079')
+Insert into Roteiro_Cultural values (53, 'Ponte da Boa Vista', 'Pte. Boa Vista', 'Boa Vista', '-8.063553', '-34.881926')
+Insert into Roteiro_Cultural values (54, 'Ponte Buarque de Macedo', 'Av. Alfredo Lisboa', 'Santo Antônio', '-8.061843', '-34.875618')
+Insert into Roteiro_Cultural values (55, 'Ponte Duarte Coelho', 'Av. Conde da Boa Vista - s/n', 'Boa Vista', '-8.062241', '-34.881206')
+Insert into Roteiro_Cultural values (56, 'Ponte do Limoeiro', 'Av. Norte Miguel Arraes de Alencar - 106', 'Santo Amaro', '-8.050561', '-34.873074')
+Insert into Roteiro_Cultural values (57, 'Ponte Maurício de Nassau', 'Pte. Maurício de Nassau', 'Santo Antônio', '-8.063957', '-34.87566')
+Insert into Roteiro_Cultural values (58, 'Ponte Princesa Isabel', 'R. da Aurora', 'Boa Vista', '-8.059809', '-34.879543')
+Insert into Roteiro_Cultural values (59, 'Teatro do Parque', 'Rua do Hospício - 81', 'Boa Vista', '-8.062012', '-34.884744')
+Insert into Roteiro_Cultural values (60, 'Teatro Barreto Júnior', 'Rua Estudante Jeremias Bastos - s/n', 'Pina', '-8.0932489', '-34.8844612')
+Insert into Roteiro_Cultural values (61, 'Teatro de Santa Isabel', 'Praça da República - s/n', 'Santo Antonio', '-8.060695', '-34.878433')
+Insert into Roteiro_Cultural values (62, 'Teatro Apolo', 'Rua do Apolo - 121', 'Recife', '-8.0614604', '-34.8725789')
+Insert into Roteiro_Cultural values (63, 'Teatro Hermilo Borba Filho', 'Cais do Apolo - s/n', 'Recife', '-8.06183', '-34.872795')
+Insert into Roteiro_Cultural values (64, 'Teatro Luiz Mendonça', 'Av. Boa Viagem - s/n', 'Boa Viagem', '-8.141965', '-34.903683')
+Insert into Roteiro_Cultural values (65, 'Teatro Boa Vista', 'R. Dom Bôsco  - 551', 'Boa Vista', '-8.0605756', '-34.8935803')
+Insert into Roteiro_Cultural values (66, 'Teatro Arraial', 'R. da Aurora - 457', 'Boa Vista', '-8.0599357', '-34.8803492')
+Insert into Roteiro_Cultural values (67, 'Teatro Valdemar Oliveira', 'Praça Osvaldo Cruz - 412', 'Soledade', '-8.055285', '-34.8914722')
+Insert into Roteiro_Cultural values (68, 'Teatro Alfredo de Oliveira', 'Praça Osvaldo Cruz - 412A', 'Soledade', '-8.0556155', '-34.8918026')
+Insert into Roteiro_Cultural values (69, 'Teatro Marco Camarotti', 'R. Treze de Maio - 455 ', 'Santo Amaro', '-8.0496014', '-34.8818494')
+Insert into Roteiro_Cultural values (70, 'Teatro Joaquim Cardozo', 'R. Benfica - 157', 'Madalena', '-8.0600654', '-34.901732')
+Insert into Roteiro_Cultural values (71, 'Teatro Rio Mar', 'Av. República do Líbano - 251', 'Pina', '-8.0861186', '-34.89483')
+
 
 # Especializações de conta
+
 Insert into Usuario values ('fulano@gmail.com', 'fulano.png');
 Insert into Usuario values ('mc@loma.com', 'mc_loma.png');
 
@@ -24,6 +97,7 @@ Insert into Admin values ('abcd@cin.ufpe.br', 5);
 
 
 # Especializações de roteiro cultural
+
 Insert into Museu values (31, 'Com cerca de 15 mil peças no acervo retratando a formação do povo nordestino, é considerado um dos mais importantes museus antropológicos brasileiros. ', 'http://www.fundaj.gov.br/')
 Insert into Museu values (32, 'Os amantes da arte contemporânea conhecerão o acervo de 14 mil desenhos de Murilo La Greca em técnicas diversas. No local, também são guardadas 160 pinturas e cartas trocadas pelo artista com Portinari e Giacometti.', 'http://museumurillolagreca.com.br/')
 Insert into Museu values (33, 'Localizado no Forte das Cinco Pontas, construção holandesa de 1630. No local, o visitante pode desfrutar de um extenso acervo de documentos iconográficos sobre o Recife além de 150 mil imagens de antigas residências e peças religiosas.', 'http://www.recife.pe.gov.br/cultura/museucidade.php')
@@ -103,6 +177,7 @@ Insert into Centro_de_Compras values (7, 'Em fevereiro de 2003, foi inaugurado o
 
 
 # Atributos multivalorados
+
 Insert into Museu_Telefones values (31, '(81) 3073-6340')
 Insert into Museu_Telefones values (32, '(81) 3355-3126')
 Insert into Museu_Telefones values (33, '(81) 3355-2812')
@@ -152,6 +227,39 @@ Insert into Teatro_Telefones values (71, '(81) 4003-1212')
 
 # Relacionamentos binários
 
+Insert into Segue values ('fulano@gmail.com', 'stevejobs@apple.com')
+Insert into Segue values ('mc@loma.com', 'stevejobs@apple.com')
+Insert into Segue values ('abcd@cin.ufpe.br', 'stevejobs@apple.com')
+Insert into Segue values ('abcd@cin.ufpe.br', 'mc@loma.com')
+
+Insert into Favorita values ('mc@loma.com', 55)
+Insert into Favorita values ('mc@loma.com', 31)
+Insert into Favorita values ('mc@loma.com', 57)
+Insert into Favorita values ('stevejobs@apple.com', 1)
+Insert into Favorita values ('abcd@cin.ufpe.br', 55)
+Insert into Favorita values ('abcd@cin.ufpe.br', 1)
+Insert into Favorita values ('fulano@gmail.com', 9)
+Insert into Favorita values ('fulano@gmail.com', 13)
+Insert into Favorita values ('fulano@gmail.com', 57)
+
+Insert into Sugere_Mudanca values ('mc@loma.com', 'stevejobs@apple.com')
+Insert into Sugere_Mudanca values ('fulano@gmail.com', 'stevejobs@apple.com')
+Insert into Sugere_Mudanca values ('fulano@gmail.com', 'abcd@cin.ufpe.br')
+
+Insert into Modificacao values ('mc@loma.com', 'stevejobs@apple.com', 55)
+Insert into Modificacao values ('fulano@gmail.com', 'abcd@cin.ufpe.br', 13)
+
 
 # Relacionamentos ternários
 
+Insert into Compartilha values ('mc@loma.com', 55, 1)
+Insert into Compartilha values ('mc@loma.com', 32, 2)
+Insert into Compartilha values ('mc@loma.com', 63, 3)
+Insert into Compartilha values ('mc@loma.com', 21, 3)
+Insert into Compartilha values ('mc@loma.com', 47, 2)
+Insert into Compartilha values ('mc@loma.com', 76, 1)
+Insert into Compartilha values ('stevejobs@apple.com', 55, 1)
+Insert into Compartilha values ('stevejobs@apple.com', 56, 1)
+Insert into Compartilha values ('stevejobs@apple.com', 55, 2)
+Insert into Compartilha values ('fulano@gmail.com', 33, 3)
+Insert into Compartilha values ('abcd@cin.ufpe.br', 26, 2)
