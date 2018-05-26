@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :user, :path => '', :path_names => { :sign_in => "sign_in", :sign_out => "home", :sign_up => "sign_up" }
+
+  root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get 'about' => 'pages#about'
   get 'team' => 'pages#team'
@@ -15,4 +17,8 @@ Rails.application.routes.draw do
   get 'profile/followers' => 'pages#profile_followers'
   get 'profile/favorites' => 'pages#profile_favorites'
   get 'admin' => 'pages#admin'
+
+  #devise_scope :user do
+   # get 'login', to: 'devise/sessions#new'
+  #end
 end
