@@ -1,0 +1,92 @@
+<%= form_with(model: place, local: true) do |form| %>
+  <% if place.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(place.errors.count, "error") %> prohibited this place from being saved:</h2>
+
+      <ul>
+      <% place.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nome %>
+    <%= form.text_field :nome, id: :place_nome %>
+  </div>
+
+  <div class="field">
+    <%= form.label :descricao %>
+    <%= form.text_field :descricao, id: :place_descricao %>
+  </div>
+
+  <div class="field">
+    <%= form.label :bairro %>
+    <%= form.text_field :bairro, id: :place_bairro %>
+  </div>
+
+  <div class="field">
+    <%= form.label :logradouro %>
+    <%= form.text_field :logradouro, id: :place_logradouro %>
+  </div>
+
+  <div class="field">
+    <%= form.label :telefone %>
+    <%= form.text_field :telefone, id: :place_telefone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :latitude %>
+    <%= form.text_field :latitude, id: :place_latitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :longitude %>
+    <%= form.text_field :longitude, id: :place_longitude %>
+  </div>
+
+  <div class="field">
+    <%= form.label :localizacao %>
+    <%= form.text_field :localizacao, id: :place_localizacao %>
+  </div>
+
+  <div class="field">
+    <%= form.label :dias %>
+    <%= form.text_field :dias, id: :place_dias %>
+  </div>
+
+  <div class="field">
+    <%= form.label :horario %>
+    <%= form.text_field :horario, id: :place_horario %>
+  </div>
+
+  <div class="field">
+    <%= form.label :observacao %>
+    <%= form.text_field :observacao, id: :place_observacao %>
+  </div>
+
+  <div class="field">
+    <%= form.label :site %>
+    <%= form.text_field :site, id: :place_site %>
+  </div>
+
+  <div class="field">
+    <%= form.label :funcionamento %>
+    <%= form.text_field :funcionamento, id: :place_funcionamento %>
+  </div>
+
+  <div class="field">
+    <%= form.label :funcionamentoDomingo %>
+    <%= form.text_field :funcionamentoDomingo, id: :place_funcionamentoDomingo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tipo %>
+    <%= form.text_field :tipo, id: :place_tipo %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

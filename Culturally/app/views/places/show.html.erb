@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @place.nome %>
+</p>
+
+<p>
+  <strong>Descricao:</strong>
+  <%= @place.descricao %>
+</p>
+
+<p>
+  <strong>Bairro:</strong>
+  <%= @place.bairro %>
+</p>
+
+<p>
+  <strong>Logradouro:</strong>
+  <%= @place.logradouro %>
+</p>
+
+<p>
+  <strong>Telefone:</strong>
+  <%= @place.telefone %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @place.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @place.longitude %>
+</p>
+
+<p>
+  <strong>Localizacao:</strong>
+  <%= @place.localizacao %>
+</p>
+
+<p>
+  <strong>Dias:</strong>
+  <%= @place.dias %>
+</p>
+
+<p>
+  <strong>Horario:</strong>
+  <%= @place.horario %>
+</p>
+
+<p>
+  <strong>Observacao:</strong>
+  <%= @place.observacao %>
+</p>
+
+<p>
+  <strong>Site:</strong>
+  <%= @place.site %>
+</p>
+
+<p>
+  <strong>Funcionamento:</strong>
+  <%= @place.funcionamento %>
+</p>
+
+<p>
+  <strong>Funcionamentodomingo:</strong>
+  <%= @place.funcionamentoDomingo %>
+</p>
+
+<p>
+  <strong>Tipo:</strong>
+  <%= @place.tipo %>
+</p>
+
+<%= link_to 'Edit', edit_place_path(@place) %> |
+<%= link_to 'Back', places_path %>
