@@ -6,6 +6,5 @@ describe User  do
   it "Criação de Usuario valido " do
     expect(User_instance.email).to be_valid
     expect(User_instance.password).to be_valid
-    expect(User_instance.password_confirmation).to be_valid
   end
 end
