@@ -10,7 +10,7 @@ Feature: Cadastro Visitante
     And put dada@boladao.com on the user_email input
     And put 123456 on the user_password input
     And put 123456 on the user_password_confirmation input
-    And click on the Sign Up button
+    And click on the 'Sign Up' button
     Then I should see the text Welcome! You have signed up successfully.
 
 
@@ -20,7 +20,7 @@ Feature: Cadastro Visitante
     When I click on the sign_up link
     And put 123456 on the user_password input
     And put 123456 on the user_password_confirmation input
-    And click on the Sign Up button
+    And click on the 'Sign Up' button
     Then I should see the text 1 error prohibited this user from being saved
 
 
@@ -30,7 +30,7 @@ Feature: Cadastro Visitante
     And put dada@boladao.com on the user_email input
     And put 123456 on the user_password input
     And put 654321 on the user_password_confirmation input
-    And click on the Sign Up button
+    And click on the 'Sign Up' button
     Then I should see the text 1 error prohibited this user from being saved
 
 
