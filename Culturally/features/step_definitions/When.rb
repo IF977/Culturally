@@ -9,3 +9,9 @@ end
 When(/^click on the ([^"]*) button$/) do |button|
     button
 end
+
+When(/^[I ]*choose ([^"]*) on ([^"]*) field$/) do |data, input|
+  	input = data
+end
+
+
