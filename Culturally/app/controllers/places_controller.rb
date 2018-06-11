@@ -4,12 +4,13 @@ class PlacesController < ApplicationController
   # GET /places
   # GET /places.json
   def index
-    @places = Place.all
+    @places = Place.where(["tipo LIKE ?", "#{params[:search]}"])
+    #@places = Place.all
 
     @hash = Gmaps4rails.build_markers(@places) do |place, marker|
       marker.lat place.latitude
       marker.lng place.longitude
-      marker.infowindow place.nome
+      marker.infowindow place.tipo
     end
   end
 

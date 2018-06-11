@@ -102,8 +102,41 @@
 
                             <div class="col-xs-12 ml-auto mr-auto ie-container-width-fix">
 
+
+                            <%= form_tag places_path, :method => 'get', :class => 'tm-search-form tm-section-pad-3'  do %>
+
+                                <div class="form-row tm-search-form-row">
+
+                                    <div class="form-group tm-form-element tm-form-element-2">
+
+                                        <%= select_tag(:search, options_for_select([
+                                            ['Tipo de roteiro', 'todos'], 
+                                            ['Centro de compras', 'centro'],
+                                            ['Feira livre', 'feira'],
+                                            ['Mercado público', 'mercado'],
+                                            ['Museu', 'museu'],
+                                            ['Ponte', 'ponte'],
+                                            ['Teatro', 'teatro']
+
+                                            ]), :class => 'form-control tm-select' ) %>
+                                            <i class="fa fa-2x fa-map-pin tm-form-element-icon"></i>
+                                    </div>
+
+                                    <div class="form-group tm-form-element tm-form-element-50">
+                                            <i class="fa fa-calendar fa-2x tm-form-element-icon"></i>
+                                            <input name="check-in" type="text" class="form-control" id="inputCheckIn" placeholder="Data">
+                                        </div>
+
+                                         <div class="form-group tm-form-element tm-form-element-2">
+                                                <%= submit_tag "Buscar", :class => 'btn btn-primary tm-btn-search' %>
+                                            </div>
+
+                                    </div>
+
+                            <% end %>
+
                                 <!--form action="index.html" method="get" class="tm-search-form tm-section-pad-2"-->
-                                <form action="index.html" method="get" class="tm-search-form tm-section-pad-3"> 
+                                <!--form action="index.html" method="get" class="tm-search-form tm-section-pad-3"> 
                                     <div class="form-row tm-search-form-row">
 
                                         <div class="form-group tm-form-element tm-form-element-2">                                            
@@ -138,10 +171,10 @@
                                     
 
                                     <div class="form-row tm-search-form-row">
-                                        <!-- FILTROS -->
+                                        
                                     </div>
 
-                                </form>
+                                </form-->
 
                             </div>   
 
