@@ -25,8 +25,6 @@ Feature: Login de Usuário
     Given I am on the index page
     When I click on the sign_up link
     And put dada@boladao.com on the user_email input
-    And put 123456 on the user_password input
-    And put 654321 on the user_password_confirmation input
     And click on the Sign Up button
     Then I should see the text Invalid Email or password.
 
