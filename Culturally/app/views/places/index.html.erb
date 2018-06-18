@@ -197,7 +197,7 @@
                     <div class="row">
                         <div class="col text-center">
                             <h2 class="tm-section-title">Em busca de novos roteiros culturais?</h2>
-                            <p class="tm-color-white tm-section-subtitle">Conheça locais próximos à sua região.</p>
+                            <p class="tm-color-white tm-section-subtitle">Conheça locais próximos a sua região.</p>
                             <a href="#" class="tm-color-white tm-btn-white-bordered">Cadastre-se</a>
                         </div>                
                     </div>
@@ -213,7 +213,7 @@
                       <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
                             <i class="fa tm-fa-6x fa-fire tm-color-primary tm-margin-b-20"></i>
                             <h3 class="tm-color-primary tm-article-title-1">Filtre roteiros</h3>
-                            <p>Busque por roteiros culturais de seu interesse, filtrando-os conforme seu tipo e horário de funcionamento.</p>
+                            <p>Busque por roteiros culturais através de filtros por tipo e horário de funcionamento.</p>
                         </article>
                         <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                            
                             <i class="fa tm-fa-6x fa-map tm-color-primary tm-margin-b-20"></i>
@@ -223,7 +223,7 @@
                         <article class="col-sm-12 col-md-4 col-lg-4 col-xl-4 tm-article">                           
                             <i class="fa tm-fa-6x fa-bookmark tm-color-primary tm-margin-b-20"></i>
                             <h3 class="tm-color-primary tm-article-title-1">Construa momentos</h3>
-                            <p>Vivencie e construa momentos sozinho ou com amigos, transformando cada ida em um novo momento Culturally.</p>
+                            <p>Vivencie e construa momentos, transformando cada ida em um novo momento Culturally.</p>
                         </article>
                     </div>        
                 </div>
@@ -262,9 +262,7 @@
                 <div class="container">
                     <div class="row">
                         <p class="col-sm-12 text-center tm-font-light tm-color-white p-4 tm-margin-b-0">
-                        Copyright &copy; <span class="tm-current-year">2018</span> Culturally
-                        
-                        - Design: <a href="https://www.facebook.com/tooplate" class="tm-color-primary tm-font-normal" target="_parent">Tooplate</a></p>        
+                        Copyright &copy; <span class="tm-current-year">2018</span> Culturally</p>        
                     </div>
                 </div>                
             </footer>
@@ -302,6 +300,35 @@
             });
 
         </script>               
+
+        <script type="text/javascript">
+            /*
+             * declare map as a global variable
+             */
+            var map;
+
+            /*
+             * use google maps api built-in mechanism to attach dom events
+             */
+            google.maps.event.addDomListener(window, "load", function () {
+
+                /*
+                 * create map
+                 */
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    center: new google.maps.LatLng(-8.0631, -34.8713),
+                    zoom: 14,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: [{
+                        featureType: "poi",
+                        stylers: [{
+                            visibility: "off"
+                        }]
+                    }]
+                });
+
+            });
+        </script>
 
 </body>
 </html>
