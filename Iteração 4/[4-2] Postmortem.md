@@ -45,12 +45,12 @@ Não haverá uma próxima iteração voltada para a disciplina de Engenharia de 
 
 | Atividade  | Membro(s) |
 | - | - |
-| Implementação do login com redes sociais | `@dlsr`, `@gabrieldluca` |
+| Implementação do login com redes sociais | `@dlsr` |
 | Inclusão dos últimos elementos de identidade visual | `@acl5` |
 | Criação de testes em RSpec/Cucumber para as novas features | `@eliezerpedro` |
 | Integrar assets da aplicação com o Heroku | `@gabrieldluca` |
 | Scripts de criação de functions, procedures e triggers | `@gabrieldluca`, `@acl5` |
-| Adição da feature de ver a rota no Google Maps | `@gabrieldluca` |
+| Adição da feature de ver a rota no Google Maps | `@dlsr` |
 
 
 ### Lições aprendidas (Postmortem / Rationale)
