@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   resources :places
-  devise_for :user, :path => '', :path_names => { :sign_in => "sign_in", :sign_out => "home", :sign_up => "sign_up" }, controllers: { omniauth_callbacks: 'users/omniauth' }
+  #devise_for :user, :path => '', :path_names => { :sign_in => "sign_in", :sign_out => "home", :sign_up => "sign_up" }, controllers: { omniauth_callbacks: 'users/omniauth' }
+
+  devise_for :user, :path => '', :path_names => { :sign_in => "sign_in", :sign_out => "home", :sign_up => "sign_up" }
   
   root to: 'places#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
