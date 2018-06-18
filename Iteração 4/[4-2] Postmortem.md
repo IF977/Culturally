@@ -32,6 +32,8 @@ Algumas atividades foram realizadas em conjunto com outros integrantes da equipe
 
 
 ### O que não foi feito?
+| Atividade  | Membro(s) |
+| - | - |
 | Scripts de criação de functions, procedures e triggers | `@gabrieldluca`, `@acl5` |
 | Corrigir bug do login com Google Auth | `@acl5` | 
 
