@@ -281,9 +281,19 @@
      
 
             <script type= "text/javascript">
+                
+                var mapStyle =[
+                    {
+                        featureType: "poi",
+                        elementType: "labels",
+                        stylers: [
+                              { visibility: "off" }
+                        ]
+                    }
+                ];
 
                 handler = Gmaps.build('Google');
-                handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
+                handler.buildMap({ provider: {styles: mapStyle}, internal: {id: 'map'}}, function(){
                   markers = handler.addMarkers(<%=raw @hash.to_json %>);
                   handler.bounds.extendWith(markers);
                   handler.fitMapToBounds();
@@ -303,7 +313,7 @@
 
         </script>               
 
-        <script type="text/javascript">
+        <!--script type="text/javascript">
             /*
              * declare map as a global variable
              */
@@ -330,7 +340,7 @@
                 });
 
             });
-        </script>
+        </script-->
 
 
 
