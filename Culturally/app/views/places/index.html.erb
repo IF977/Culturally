@@ -92,6 +92,8 @@
 
             <div class="tm-section tm-bg-img" id="tm-section-1" style='display: grid; margin:0 auto; padding-top: 30px;' >
 
+
+
                 <!--div class="tm-bg-white ie-container-width-fix-2 " -->
 
                     <div class="ie-container-width-fix-2 " >
@@ -111,12 +113,12 @@
 
                                         <%= select_tag(:search, options_for_select([
                                             ['Tipo de roteiro', 'todos'], 
-                                            ['Centro de compras', 'centro'],
-                                            ['Feira livre', 'feira'],
-                                            ['Mercado público', 'mercado'],
-                                            ['Museu', 'museu'],
-                                            ['Ponte', 'ponte'],
-                                            ['Teatro', 'teatro']
+                                            ['Centro de compras', 'centros'],
+                                            ['Feira livre', 'feiras'],
+                                            ['Mercado público', 'mercados'],
+                                            ['Museu', 'museus'],
+                                            ['Ponte', 'pontes'],
+                                            ['Teatro', 'teatros']
 
                                             ]), :class => 'form-control tm-select' ) %>
                                             <i class="fa fa-2x fa-map-pin tm-form-element-icon"></i>
@@ -190,7 +192,7 @@
                    
                         
             </div>
-
+       
          
             <div class="tm-section-2">
                 <div class="container">
@@ -301,7 +303,7 @@
 
         </script>               
 
-        <script type="text/javascript">
+        <!--script type="text/javascript">
             /*
              * declare map as a global variable
              */
@@ -328,7 +330,10 @@
                 });
 
             });
-        </script>
+        </script-->
+
+
+
 
 </body>
 </html>
