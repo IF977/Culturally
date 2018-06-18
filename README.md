@@ -4,7 +4,7 @@
 
 Projeto da disciplina (IF977) Engenharia de Software, do curso de graduação em Sistemas de Informação do Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE).
 
-**Link da aplicação no Heroku:** em breve
+**Link da aplicação no Heroku:** http://culturally.herokuapp.com
 
 **Screencast da Aplicação:** em breve
 
