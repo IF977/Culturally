@@ -6,7 +6,7 @@ Projeto da disciplina (IF977) Engenharia de Software, do curso de graduação em
 
 **Link da aplicação no Heroku:** http://culturally.herokuapp.com
 
-**Screencast da Aplicação:** em breve
+**Screencast da Aplicação:** https://youtu.be/G0XKuutsjI0
 
 ## Equipe
 
